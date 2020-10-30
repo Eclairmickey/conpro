@@ -4,6 +4,8 @@
 
 using namespace std;
 
+typedef long long int ll;
+
 vector<ll> Eratosthenes(const int max){
     vector<bool> IsPrime(max+1,true);
 
